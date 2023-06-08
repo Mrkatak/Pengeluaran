@@ -71,6 +71,12 @@ public class MainActivity extends AppCompatActivity {
                                     intent.putExtras(bundle);
                                     startActivity(intent);
 
+                                    //Opsi 2 passing data via data
+//                                    Intent i = new Intent(MainActivity.this, DataActivity.class);
+//                                    i.putExtra("KeyNama", nama);
+//                                    i.putExtra("keyJumlah", jumlah);
+//                                    startActivity(i);
+
                                 }
 
                             }
